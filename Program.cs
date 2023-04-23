@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            MaxGenericValue maxGenericValue = new MaxGenericValue();
-            int MaxValue = maxGenericValue.maximumValue(24, 65, 87);
-            Console.WriteLine("The maximum Value is: " + MaxValue);
+
+            MaxGenValue<string> max = new MaxGenValue<string>("Welcome", "Every", "One");
+            Console.WriteLine("The maximum value is: " + max.maximumValue());
 
         }
     }
