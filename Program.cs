@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            MaxFloat maxFloat = new MaxFloat();
-            float floatValue = maxFloat.maximumValue(54.54f, 65.87f, 97.21f);
-            Console.WriteLine("The Maximum Int Value is: " + floatValue);
+            MaxString maxString = new MaxString();
+            String strValue = maxString.maximumValue("Hello", "World", "Welcome");
+            Console.WriteLine("The Maximum String Value is: " + strValue);
 
         }
     }
