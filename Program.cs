@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            MaxString maxString = new MaxString();
-            String strValue = maxString.maximumValue("Hello", "World", "Welcome");
-            Console.WriteLine("The Maximum String Value is: " + strValue);
+            MaxGenericValue maxGenericValue = new MaxGenericValue();
+            int MaxValue = maxGenericValue.maximumValue(24, 65, 87);
+            Console.WriteLine("The maximum Value is: " + MaxValue);
 
         }
     }
