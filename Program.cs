@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
 
-            MaxGenValue<string> max = new MaxGenValue<string>("Welcome", "Every", "One");
-            Console.WriteLine("The maximum value is: " + max.maximumValue());
+            GenericMaximum<string> strMax = new GenericMaximum<string>("apple", "pineapple", "banana", "orange", "grape");
+            Console.WriteLine("Maximum string is: " + strMax.Maximum());
 
         }
     }
