@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            MaxInt maxInt = new MaxInt();
-            int intValue = maxInt.maximumValue(210, 236, 456);
-            Console.WriteLine("The Maximum Int Value is: " +intValue);
+            MaxFloat maxFloat = new MaxFloat();
+            float floatValue = maxFloat.maximumValue(54.54f, 65.87f, 97.21f);
+            Console.WriteLine("The Maximum Int Value is: " + floatValue);
+
         }
     }
 }
