@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
 
-            GenericMaximum<string> strMax = new GenericMaximum<string>("apple", "pineapple", "banana", "orange", "grape");
-            Console.WriteLine("Maximum string is: " + strMax.Maximum());
+            PrintMaxValue<int> integerMax = new PrintMaxValue<int>(1, 2, 3, 4, 5);
+            integerMax.Maximum();
 
         }
     }
